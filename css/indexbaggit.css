@@ -4,10 +4,15 @@
 box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(230, 228, 228);
+}
+
 .header{
     height: 50px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
+    z-index: 99;
 }
 
 .header>div{
@@ -22,12 +27,42 @@ box-sizing: border-box;
 
 .aqua{
 width: 3%;
-background-color: rgb(13, 182, 182);
+background-color: rgb(73, 172, 230);
 }
 
 .header>div:nth-child(3){
 line-height: 50px;
+width: 82%;
+text-align: center !important;
+}
+
+.header>div:nth-child(4){
+    width: 2%;
+    background-color: slateblue;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.header>div:nth-child(5){
+    width: 6%;
+   margin-top: 10px;
+}
+
+.header>div>a>button{
 width: 80%;
-text-align: center;
+height: 30px;
+border-radius: 6px;
+opacity: 0.8;
+}
+/* HEADER DONE UP ABOVE */
+
+.createaccount{
+height: 75px;
+width: 65%;
+margin-top:20px;
+margin-left: 235px;
+box-shadow: 0px 4px 10px 0px rgb(136, 135, 135);
 }
 
