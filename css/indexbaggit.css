@@ -6,7 +6,6 @@ box-sizing: border-box;
 
 .header{
     width: 100%;
-    background-color: black !important;
 }
 
 .header>ul{
